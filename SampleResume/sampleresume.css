@@ -1,0 +1,42 @@
+
+body{
+	font-size: 14px;
+}
+
+h1{
+	font-size: 50px;
+	text-align: center
+		text-shadow: 0px 1px 2px rgba(150, 150, 150, 1);
+}
+
+#container{
+	width: 600px;
+	margin: 50px auto;
+	background-color: #EBEBEB;
+	padding: 15px;
+}
+
+.exp{
+	padding: 15px;
+	background-color: #FFFFFF;
+
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+
+	-webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.17);
+	-moz-box-shadow:    0px 5px 10px 0px rgba(0, 0, 0, 0.17);
+	box-shadow:         0px 5px 10px 0px rgba(0, 0, 0, 0.17);
+
+	
+}
+
+article .exp h3{
+	color: #FF0000;
+}
+
+#cat{
+	position: relative;
+	float: right;
+	
+}
