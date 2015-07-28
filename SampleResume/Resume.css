@@ -1,0 +1,63 @@
+body{
+	background-color: #FDFCF8;
+}
+#Container{
+	width: 900px;
+	margin: 50px auto;
+	background-color: #EBEBEB;
+	padding: 15px;
+}
+h1{
+	font-size: 35px;
+}
+#pp{
+	position: relative;
+	float: right;
+	margin: -100px 0px 10px 10px;
+}
+h2{
+	background-color: #999999;
+	color: #FFFFFF;
+	font-size: 25px;
+	-webkit-box-shadow: 19px 6px 17px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    19px 6px 17px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         19px 6px 17px 0px rgba(50, 50, 50, 0.75);
+
+}
+h3{
+	font-size: 20px;
+	padding: 15px;
+	background-color: #999999;
+}
+#summary{
+	
+	padding: 15px;
+	background-color: #CCCCCC;
+	-webkit-box-shadow: 19px 6px 17px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    19px 6px 17px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         19px 6px 17px 0px rgba(50, 50, 50, 0.75);
+
+}
+#experience{
+	padding: 15px;
+	background-color:#E6E6E6;
+	-webkit-box-shadow: 19px 6px 17px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    19px 6px 17px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         19px 6px 17px 0px rgba(50, 50, 50, 0.75);
+
+}
+
+#ecp{
+	background-color: #66FFFF;
+	-webkit-box-shadow: 19px 6px 17px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    19px 6px 17px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         19px 6px 17px 0px rgba(50, 50, 50, 0.75);
+
+}
+
+
+
+
+
+
+
