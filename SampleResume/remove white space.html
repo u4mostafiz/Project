@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <!-- <p>Click the button to alert the string with removed whitespace.</p>
+    <button onclick="myFunction()">Click It</button> -->
+    <script>
+
+    //Method01
+    var str = 'H e ll o B h  arad   wa j!';
+    str = str.replace(/\s+/g, '');
+    document.write(str + '</br>');
+
+
+    //Method02
+    var array = ['1', ' ', 'c'];
+    array = array.filter(function(str) {
+        return /\S/.test(str);
+    });
+    document.write(array + '<br/>');
+
+
+    //Method03
+    function cleanArray(actual) {
+        var newArray = new Array();
+        for (var i = 0; i < actual.length; i++) {
+            if (actual[i]) {
+                newArray.push(actual[i]);
+            }
+        }
+        return newArray;
+    }
+    document.write(cleanArray([1, 2, , 3, , 3, , , , , , 4, , 4, , 5, , 6, , , , ]));
+    </script>
+</body>
+
+</html>

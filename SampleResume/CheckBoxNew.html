@@ -1,0 +1,41 @@
+CheckBoxNew
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript">
+			$(document).ready(function() {
+			    $('#selecctall').click(function(event) {  //on click 
+			        if(this.checked) { // check select status
+			            $('.checkbox1').each(function() { //loop through each checkbox
+			                this.checked = true;  //select all checkboxes with class "checkbox1"               
+			            });
+			        }else{
+			            $('.checkbox1').each(function() { //loop through each checkbox
+			                this.checked = false; //deselect all checkboxes with class "checkbox1"                       
+			            });         
+			        }
+			    });
+			    
+			});
+
+	</script>
+</head>
+<body>
+	<ul class="chk-container">
+		<li><input type="checkbox" id="selecctall"/> Selecct All</li>
+		<li><input class="checkbox1" type="checkbox" name="check[]" value="item1"> This is Item 1</li>
+		<li><input class="checkbox1" type="checkbox" name="check[]" value="item2"> This is Item 2</li>
+		<li><input class="checkbox1" type="checkbox" name="check[]" value="item3"> This is Item 3</li>
+		<li><input class="checkbox1" type="checkbox" name="check[]" value="item4"> This is Item 4</li>
+		<li><input class="checkbox1" type="checkbox" name="check[]" value="item5"> This is Item 5</li>
+		<li><input class="checkbox1" type="checkbox" name="check[]" value="item6"> This is Item 6</li>
+
+		<input type="button" name="Check_All" value="Check All" onClick="CheckAll(document.myform.check_list)">
+		<input type="button" name="Reset" value="Reset" onClick="CheckAll(document.myform.check_list)">
+		
+	</ul>
+	
+</body>
+</html>
